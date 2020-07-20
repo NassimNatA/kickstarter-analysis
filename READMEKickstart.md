@@ -26,10 +26,7 @@ For monetary group Less Than 1000
 For monetary group 1000 to 4999
 `=COUNTIFS(Kickstarter!F:F, "=successful", Kickstarter!D:D, ">=1000", Kickstarter!D:D, "<=4999", Kickstarter!R:R, "=plays")`
 
-2. After obtaining all necessary information, a line graph was generated from the Theater outcomes vs. the grouped date (month)in the pivot table.
-![image_name](path/to/image_name.png)
-
- 3. To obtain the number of failed projects, below are two examples of codes was used to filter for successful campaigns, a desired monetary group, and for the “plays” category
+ 2. To obtain the number of failed projects, below are two examples of codes was used to filter for successful campaigns, a desired monetary group, and for the “plays” category
 For monetary group Less Than 1000 
 
 `= COUNTIFS(Kickstarter!F:F, "=failed", Kickstarter!D:D, "<1000", Kickstarter!R:R, "=plays")`
@@ -37,22 +34,23 @@ For monetary group Less Than 1000
 For monetary group 1000 to 4999
 `=COUNTIFS(Kickstarter!F:F, "=failed", Kickstarter!D:D, ">=1000", Kickstarter!D:D, "<=4999", Kickstarter!R:R, "=plays")`
 
-4.  To obtain the number of canceled projects, below are two examples of codes was used to filter for successful campaigns, a desired monetary group, and for the “plays” category.
+3.  To obtain the number of canceled projects, below are two examples of codes was used to filter for successful campaigns, a desired monetary group, and for the “plays” category.
 For monetary group Less Than 1000 
 ` =COUNTIFS(Kickstarter!F:F, "=canceled", Kickstarter!D:D, "<1000", Kickstarter!R:R, "=plays")`
 For monetary group 1000 to 4999
 `=COUNTIFS(Kickstarter!F:F, "=failed", Kickstarter!D:D, ">=1000", Kickstarter!D:D, "<=4999", Kickstarter!R:R, "=plays")`
 
-5. The SUM function ` =SUM()`was then used to obtain the total number of project. The percentage for each outcome (successful, failed, canceled) was obtained by utilizing the ROUND function `=ROUND (_/_*100, 0`
+4. The SUM function ` =SUM()`was then used to obtain the total number of project. The percentage for each outcome (successful, failed, canceled) was obtained by utilizing the ROUND function `=ROUND (_/_*100, 0`
 
 
-6. After obtaining all necessary information, a line graph was generated from the Goal columns and the three Outcome columns (successful, failed, canceled) to generate a overview of the campaign trends for plays. 
+5. After obtaining all necessary information, a line graph was generated from the Goal columns and the three Outcome columns (successful, failed, canceled) to generate a overview of the campaign trends for plays. 
 ![Outcomes_vs_Goals](../Users/nassimnatalieataii/Desktop/Class Folder/CrowdFunding Analysis/Resources/Outcomes_vs_Goals.png)
 
 ---
 ### Challenges and Difficulties Encountered: 
 For deliverable 1, challenges included finding how to group a column in the pivot table (Date Created Conversion) to only include the Months in the pivot table. 
 For deliverable 2, challenges included familiarizing with the COUNTIFS function to correctly include all necessary parameters, restrictions, and references for each cell. 
+
 ---
 ### Results
 ## What are two conclusions you can draw about the Outcomes based on Launch Date?
