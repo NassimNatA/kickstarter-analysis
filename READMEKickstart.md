@@ -35,12 +35,14 @@ For monetary group 1000 to 4999
 `=COUNTIFS(Kickstarter!F:F, "=failed", Kickstarter!D:D, ">=1000", Kickstarter!D:D, "<=4999", Kickstarter!R:R, "=plays")`
 
 3.  To obtain the number of canceled projects, below are two examples of codes was used to filter for successful campaigns, a desired monetary group, and for the “plays” category.
+
 For monetary group Less Than 1000 
 ` =COUNTIFS(Kickstarter!F:F, "=canceled", Kickstarter!D:D, "<1000", Kickstarter!R:R, "=plays")`
+
 For monetary group 1000 to 4999
 `=COUNTIFS(Kickstarter!F:F, "=failed", Kickstarter!D:D, ">=1000", Kickstarter!D:D, "<=4999", Kickstarter!R:R, "=plays")`
 
-4. The SUM function ` =SUM()`was then used to obtain the total number of project. The percentage for each outcome (successful, failed, canceled) was obtained by utilizing the ROUND function `=ROUND (_/_*100, 0`
+4. The SUM function ` =SUM()`was then used to obtain the total number of project. The percentage for each outcome (successful, failed, canceled) was obtained by utilizing the ROUND function `=ROUND (_/_*100, 0)`
 
 
 5. After obtaining all necessary information, a line graph was generated from the Goal columns and the three Outcome columns (successful, failed, canceled) to generate a overview of the campaign trends for plays. 
