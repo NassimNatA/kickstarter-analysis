@@ -12,7 +12,7 @@ The purpose of this project is to analyze the output of different campaigns in c
 ### Analysis of Outcomes Based on Launch Date:
 Analysis on the outcomes of the play campaigns (successful, failed, cancelled) in relation to launch date was done by first creating a Years column by utilizing the function YEARS() on the “Date Created Conversion” column. A pivot table was then generated with the “Parent Category” and “Years” set as filters, “Outcomes” as the Legend and Values, and “Date Created Conversion” set as the axis and grouped by months. A line chart when then generated to visualize the number of successful, failed, and canceled projects by month.  
 
-![Theater_Outcomes_vs_Launch](Macintosh HD/Users/nassimnatalieataii/Desktop/Class Folder/CrowdFunding Analysis/Resources/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](Macintosh HD/Desktop/Users/nassimnatalieataii/Desktop/Class Folder/CrowdFunding Analysis/Resources/Theater_Outcomes_vs_Launch.png)
 
 ---
 
@@ -48,7 +48,7 @@ For monetary group 1000 to 4999
 
 5. After obtaining all necessary information, a line graph was generated from the Goal columns and the three Outcome columns (successful, failed, canceled) to generate a overview of the campaign trends for plays. 
 
-![Outcomes_vs_Goals](Macintosh HD/Users/nassimnatalieataii/Desktop/Class Folder/CrowdFunding Analysis/Resources/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](Desktop/Users/nassimnatalieataii/Desktop/Class Folder/CrowdFunding Analysis/Resources/Outcomes_vs_Goals.png)
 
 ---
 ### Challenges and Difficulties Encountered: 
