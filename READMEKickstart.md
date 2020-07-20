@@ -15,7 +15,8 @@ Analysis on the outcomes of the play campaigns (successful, failed, cancelled) i
 ![Theater_Outcomes_vs_Launch](../Users/nassimnatalieataii/Desktop/Class Folder/CrowdFunding Analysis/Resources/Theater_Outcomes_vs_Launch.png)
 
 ---
-  Analysis of Outcomes Based on Goals: 
+
+### Analysis of Outcomes Based on Goals: 
  Analysis on the campaigns in relation to Outcomes based on Launch Date was done by first creating a table that listed Goals (containing groups of goal monetary amounts), vs. number of successful, failed, and canceled campaigns. In addition the table included the sum of the total campaigns (projects) to obtain the percentage breakdown in each monetary group (successful, failed, canceled). 
 
  1. To obtain the number of successful projects, below are two examples of codes was used to filter for successful campaigns, a desired monetary group, and for the “plays” category:
@@ -54,6 +55,7 @@ For deliverable 1, challenges included finding how to group a column in the pivo
 For deliverable 2, challenges included familiarizing with the COUNTIFS function to correctly include all necessary parameters, restrictions, and references for each cell. 
 
 ---
+
 ### Results
 ## What are two conclusions you can draw about the Outcomes based on Launch Date?
 The first conclusion from the Outcomes based on Launch Date is that the successful theater  campaigns were most evident in the month of June, where there is a significant spike in the “successful” outcome. 
