@@ -1,7 +1,7 @@
 # An Analysis of Kickstarter Campaigns
 Performing analysis on Kickstarter data to uncover trends
 ---
-##Collection of data visualizations for several thousand crowdfunding projects to uncover trends and parse information to draw overaching conclusions. 
+## Collection of data visualizations for several thousand crowdfunding projects to uncover trends and parse information to draw overaching conclusions. 
 ---
 ![Subcategory (Theater) Stats](/Users/nassimnatalieataii/Desktop/Class Folder/Images for Github/Subcategory_Stats.png)
 ---
