@@ -9,7 +9,6 @@ The purpose of this project is to analyze the output of different campaigns in c
  
 ---
 ## Analysis and Challenges
-
 ### Analysis of Outcomes Based on Launch Date
 Analysis on the outcomes of the play campaigns (successful, failed, cancelled) in relation to launch date was done by first creating a Years column by utilizing the function YEARS() on the “Date Created Conversion” column. A pivot table was then generated with the “Parent Category” and “Years” set as filters, “Outcomes” as the Legend and Values, and “Date Created Conversion” set as the axis and grouped by months. A line chart when then generated to visualize the number of successful, failed, and canceled projects by month.  
 
@@ -56,7 +55,6 @@ For deliverable 1, challenges included finding how to group a column in the pivo
 For deliverable 2, challenges included familiarizing with the COUNTIFS function to correctly include all necessary parameters, restrictions, and references for each cell. 
 ---
 ### Results
-
 ## What are two conclusions you can draw about the Outcomes based on Launch Date?
 The first conclusion from the Outcomes based on Launch Date is that the successful theater  campaigns were most evident in the month of June, where there is a significant spike in the “successful” outcome. 
 The second conclusion is that the failed theater campaigns had a spike in the month of October, when there were no canceled campaigns present. This may be a correlation to the reduced amount of canceled campaigns causing more failed outcomes to occur. 
