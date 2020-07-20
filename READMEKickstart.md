@@ -47,7 +47,8 @@ For monetary group 1000 to 4999
 
 
 5. After obtaining all necessary information, a line graph was generated from the Goal columns and the three Outcome columns (successful, failed, canceled) to generate a overview of the campaign trends for plays. 
-![Outcomes_vs_Goals](../Users/nassimnatalieataii/Desktop/Class Folder/CrowdFunding Analysis/Resources/Outcomes_vs_Goals.png)
+
+![Outcomes_vs_Goals.png](../Users/nassimnatalieataii/Desktop/Class Folder/CrowdFunding Analysis/Resources/Outcomes_vs_Goals.png)
 
 ---
 ### Challenges and Difficulties Encountered: 
